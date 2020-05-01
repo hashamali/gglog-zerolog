@@ -1,8 +1,8 @@
-module github.com/hashamali/gglog-zerolog
+module github.com/hashamali/stlogzl
 
 go 1.12
 
 require (
-	github.com/hashamali/gglog v0.0.0-20200501070913-5d9e69c4abb2
+	github.com/hashamali/stlog v0.0.0-20200529062919-8635533a47ee
 	github.com/rs/zerolog v1.18.0
 )
