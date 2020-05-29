@@ -1,4 +1,4 @@
-## stlog - Zerolog Implementation
+## stlogzl - stlog Zerolog Implementation
 
 A [Zerolog](https://github.com/rs/zerolog) implementation of [stlog](https://github.com/hashamali/stlog).
 
