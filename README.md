@@ -1,18 +1,18 @@
-## stlogzl - stlog Zerolog Implementation
+## slzl - sl Zerolog Implementation
 
-A [Zerolog](https://github.com/rs/zerolog) implementation of [stlog](https://github.com/hashamali/stlog).
+A [Zerolog](https://github.com/rs/zerolog) implementation of [sl](https://github.com/hashamali/sl).
 
 
 ## Usage
 
 ```
 import (
-    "github.com/hashamali/stlogzl"
+    "github.com/hashamali/slzl"
     "github.com/rs/zerolog"
 )
 
 func main() {
-    l := stlogzl.New(zerolog.New(os.Stdout))
+    l := slzl.New(zerolog.New(os.Stdout))
     l.Info("Ready!")
 }
 ```
