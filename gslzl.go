@@ -1,7 +1,7 @@
-package slzl
+package gslzl
 
 import (
-	"github.com/hashamali/sl"
+	"github.com/hashamali/gsl"
 	"github.com/rs/zerolog"
 )
 
@@ -17,13 +17,13 @@ func SetLevel(level int) {
 	zerolog.SetGlobalLevel(zerolog.Level(level))
 }
 
-// Zerolog is a Zerolog implementation of sl.Log.
+// Zerolog is a Zerolog implementation of gsl.Log.
 type Zerolog struct {
 	Logger zerolog.Logger
 }
 
 // With adds metadata to the logger's context.
-func (l Zerolog) With(metadata interface{}) sl.Log {
+func (l Zerolog) With(metadata interface{}) gsl.Log {
 	return &Zerolog{
 		Logger: l.Logger.With().EmbedObject(metadata.(zerolog.LogObjectMarshaler)).Logger(),
 	}
