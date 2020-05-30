@@ -1,6 +1,6 @@
 github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e/go.mod h1:F5haX7vjVVG0kc13fIWeqUViNPyEJxv/OmvnBo0Yme4=
-github.com/hashamali/stlog v0.0.0-20200529062919-8635533a47ee h1:X/PJGR7xir/60WmFRICKC1Zh1oVUU8XMbXQlSAHxzDk=
-github.com/hashamali/stlog v0.0.0-20200529062919-8635533a47ee/go.mod h1:6sfmOeIBD5JdTP4Mll4xAv1sE5dVBvyNn/Cp5BGRq8U=
+github.com/hashamali/sl v0.0.0-20200530041102-a163b3d666e4 h1:TFgD+jB7vM/Yjo9FVe5GL0cJWFQr0rKWTsxNcaAM9iw=
+github.com/hashamali/sl v0.0.0-20200530041102-a163b3d666e4/go.mod h1:ut1boUXaVQ8/ogHHSj0VF6hylJWmskj6hquaTwhACrI=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/rs/xid v1.2.1/go.mod h1:+uKXf+4Djp6Md1KODXJxgGQPKngRmWyn10oCKFzNHOQ=
 github.com/rs/zerolog v1.18.0 h1:CbAm3kP2Tptby1i9sYy2MGRg0uxIN9cyDb59Ys7W8z8=
